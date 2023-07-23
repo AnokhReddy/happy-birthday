@@ -1,8 +1,16 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+
+.nanumgothiccoding * {
+  font-family: 'Nanum Gothic Coding', monospace;
+ }
+ 
 html {
   box-sizing: border-box;
 }
 
 body {
+  background-color: black;
+  color: white;
   margin: 0;
   font-family: "Work Sans", sans-serif;
 }
@@ -55,6 +63,10 @@ body {
 
 .three {
   font-size: 3rem;
+}
+
+.bdate {
+  font-size: 1.2rem;
 }
 
 .four .text-box {
@@ -235,25 +247,25 @@ body {
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 40%;
+    left: 30%;
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 37%;
+    left: 27%;
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
-    left: 32%;
+    left: 20%;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 32%;
+    left: 20%;
   }
 }
 
@@ -296,4 +308,4 @@ body {
     font-size: 1.5rem;
     font-weight: lighter;
   }
-}
+    }
