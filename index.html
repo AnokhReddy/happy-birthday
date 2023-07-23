@@ -29,6 +29,53 @@
         <p class="fake-btn" data-node-name="sendButtonLabel">Send</p>
       </div>
     </div>
+    <audio autoplay loop>
+  <source src="happy-birthday.mp3" type="audio/mpeg">
+</audio>
+
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="..." stroke="url(#paint0_linear_3324_98)" stroke-width="7.5"/>  
+<circle cx="30" cy="60" r="15" stroke="white" stroke-width="2.5"/>     
+<defs>
+<linearGradient id="paint0_linear_3324_98" ...>
+<stop stop-color="#FFD200"/>
+<stop offset="1" stop-color="#FFAF00"/>  
+</linearGradient>      
+</defs>
+</svg>
+
+<div class="confetti">
+<svg class="confetti-piece" width="10" height="10">
+<circle ... />  
+</svg>
+</div>
+
+<svg width="400" height="100" >
+ <text x="50%" y="70" text-anchor="middle">Happy Birthday!</text>   
+</svg>
+
+<!-- Rest of your HTML -->
+
+<style>
+.confetti {
+position: fixed; 
+top: 0;
+left: 0;
+}
+
+.confetti-piece {
+animation: fall 5s linear infinite;    
+}
+
+@keyframes fall {
+from { transform: translateY(-100px); }   
+to { transform: translateY(400px); }
+}
+</style>
+
+<script>
+// JS 
+</script>
     <div class="five">
       <p class="idea-1" data-node-name="text2">That's what I was going to do.</p>
       <p class="idea-2" data-node-name="text3">But then I stopped.</p>
